@@ -1,5 +1,7 @@
 # Aakhri Tareekh — आख़िरी तारीख
 
+![Aakhri Tareekh Dashboard](dashboard.png)
+
 **An offline-first college notice reader built for a friend who keeps missing deadlines.**
 
 Aakhri Tareekh uses the open-weight **Qwen3.5-4B** model through **Ollama** to read PDF/image notices locally and extract deadlines, affected students, actions, fees and evidence. It deliberately returns `unclear` instead of guessing when a date is ambiguous.
